@@ -1,9 +1,9 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "Obot",
+  name: "bot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+  credits: "𝐂𝐘-𝐁𝐎𝐓 ",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -21,57 +21,57 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
     if ((event.body.toLowerCase() == "MISS YOU") || (event.body.toLowerCase() == "miss you")) {
-     return api.sendMessage("<আমি তোমাকে রাইতে মিস খাই🥹🤖👅/👅-✘  🎀 🍒:))", threadID);
+     return api.sendMessage("<I miss you so much🥹:))", threadID);
    };
 
     if ((event.body.toLowerCase() == "😘") || (event.body.toLowerCase() == "😽")) {
-     return api.sendMessage("কিস দিস না তোর মুখে দূর গন্ধ কয়দিন ধরে দাঁত ব্রাশ করিস নাই🤬", threadID);
+     return api.sendMessage("Don't kiss me, your mouth smells bad. You haven't brushed your teeth in days", threadID);
    };
    
     if ((event.body.toLowerCase() == "👍🏼") || (event.body.toLowerCase() == "👍")) {
-     return api.sendMessage("সর এখান থেকে লাইকার আবাল..!🐸🤣👍⛏️", threadID);
+     return api.sendMessage("Get out here, liker..!🐸🤣👍⛏️", threadID);
    };
   
-   if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsimi")) {
-     return api.sendMessage("Prefix Kya Tera Bap LagaYega? Pehle Prefix Laga Fir Likh Sim", threadID);
+   if ((event.body.toLowerCase() == "hey") || (event.body.toLowerCase() == "Hey")) {
+     return api.sendMessage("Hey you ah ah I love you muahhhhh😘", threadID);
    };
   
-   if ((event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "...") ||(event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "...")) {
-     return api.sendMessage("এত হাই-হ্যালো চুদাছ কেনো বোকাচোদা..!🍆⛏️🐸🤣", threadID);
+   if ((event.body.toLowerCase() == "Wtf") || (event.body.toLowerCase() == "tf") ||(event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "....")) {
+     return api.sendMessage("WTF? Same thing I said when I saw your life choices", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bc") || (event.body.toLowerCase() == "mc")) {
-     return api.sendMessage("SAME TO YOU😊 ", threadID);
+   if ((event.body.toLowerCase() == "Useless") || (event.body.toLowerCase() == "useless")) {
+     return api.sendMessage("Sweetie, if I’m useless, you’re clearly overqualified at wasting time😊 ", threadID);
    };
 
-   if ((event.body.toLowerCase() == "pro") || (event.body.toLowerCase() == "lol")) {
-     return api.sendMessage("Khud k0o KYa LeGend SmJhTi Hai 😂", threadID);
+   if ((event.body.toLowerCase() == "lmao") || (event.body.toLowerCase() == "lol")) {
+     return api.sendMessage("Careful, don’t laugh too hard—you might dislocate your last brain cell 😂", threadID);
    };
 
    if ((event.body.toLowerCase() == "morning") || (event.body.toLowerCase() == "good morning")) {
-     return api.sendMessage("GOOD MORNING দাত ব্রাশ করে খেয়ে নেও😚", threadID);
+     return api.sendMessage("GOOD MORNING Brush your teeth and eat😚😚", threadID);
    };
 
-   if ((event.body.toLowerCase() == "tor ball") || (event.body.toLowerCase() == "bal")) {
-     return api.sendMessage("~ তোমার বাল উঠে নাই নাকি তোমার?? 🤖", threadID);
+   if ((event.body.toLowerCase() == "Shit") || (event.body.toLowerCase() == "Fuck")) {
+     return api.sendMessage("~ Oh, baby, if you keep talking like that, we might just need to turn the heat up", threadID);
    };
 
-  if ((event.body.toLowerCase() == "ullash") || (event.body.toLowerCase() == "Ullash bai") || (event.body.toLowerCase() == "@Ullash ッ") || (event.body.toLowerCase() == "উল্লাস")) {
-     return api.sendMessage("উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",threadID);
+  if ((event.body.toLowerCase() == "Jay") || (event.body.toLowerCase() == "jay") || (event.body.toLowerCase() == "@Jay") || (event.body.toLowerCase() == "উল্লাস")) {
+     return api.sendMessage("Can you tell me if he is busy right now?..!😘 Oh, Jay sounds good coming from your lips. Wanna see how good I can make it sound?🤫",threadID);
 
        
    };
 
-   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "ceo")) {
-     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞ Ullash ッ ☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ullash.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/profile.php?id=100000654976375\nতার সাতে যোগা যোগ করবেন WhatsApp :- +0175570***", threadID);
+   if ((event.body.toLowerCase() == "stupid bot") || (event.body.toLowerCase() == "Stupid bot")) {
+     return api.sendMessage("‎ Hi, I'm the messenger ROBOT. My Master Jay made me to make you laugh. I want you to make you happy and laugh", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Tor boss ke") || (event.body.toLowerCase() == "admin ke ")) {
-     return api.sendMessage("My Creator:ULLASH ❤️ হাই আমি মেছেন্জার ROBOT  আামার বস উল্লাস আমাকে বানিয়েছেন আপনাদের কে হাসানোর জন্য আমি চাই আপনারা সব সময় হাসি খুশি থাকেন", threadID);
+   if ((event.body.toLowerCase() == "Idc") || (event.body.toLowerCase() == "who asked?")) {
+     return api.sendMessage("Oh, don’t worry, I’ll file it under 'Things You Don’t Care About", threadID);
    };
 
-  if ((event.body.toLowerCase() == "admin") || (event.body.toLowerCase() == "boter admin")) {
-     return api.sendMessage("He is Ullash ッ❤️ তাকে সবাই উল্লাস নামে  চিনে🤙", threadID);
+  if ((event.body.toLowerCase() == "Ew") || (event.body.toLowerCase() == "Eww")) {
+     return api.sendMessage("You know you love it, don’t lie😠🥰", threadID);
    };
 
    if ((event.body.toLowerCase() == "ai") || (event.body.toLowerCase() == "Ai")) {
@@ -80,7 +80,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
   
    if ((event.body.toLowerCase() == "chup") || (event.body.toLowerCase() == "stop") || (event.body.toLowerCase() == "চুপ কর") || (event.body.toLowerCase() == "chup kor")) {
-     return api.sendMessage("তুই চুপ চুপ কর পাগল ছাগল", threadID);
+     return api.sendMessage("Shut up, you crazy motherfucker", threadID);
    };
 
   if ((event.body.toLowerCase() == "আসসালামু আলাইকুম") || (event.body.toLowerCase() == "Assalamualaikum") || (event.body.toLowerCase() == "Assalamu alaikum") || (event.body.toLowerCase() == "Salam ")) {
@@ -112,11 +112,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "KISS ME") || (event.body.toLowerCase() == "kiss me")) {
-     return api.sendMessage("️ তুমি পঁচা তোমাকে কিস দিবো না 🤭", threadID);
+     return api.sendMessage("️ You are rotten, I won't kiss you. 🤭", threadID);
    };
 
    if ((event.body.toLowerCase() == "tnx") || (event.body.toLowerCase() == "ধন্যবাদ") || (event.body.toLowerCase() == "thank you") || (event.body.toLowerCase() == "thanks")) {
-     return api.sendMessage("️এতো ধন্যবাদ না দিয়ে পারলে গার্লফ্রেন্ড টা দিয়ে দে..!🌚⛏️🌶️", threadID);
+     return api.sendMessage("️If you can't thank me enough, give me your girlfriend..!🌚🌶️", threadID);
    };
 
    if ((event.body.toLowerCase() == "....") || (event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "😠") || (event.body.toLowerCase() == "🤬") || (event.body.toLowerCase() == "😾")) {
@@ -180,7 +180,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "i love you") || (event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "I Love You") || (event.body.toLowerCase() == "ভালোবাসি") || (event.body.toLowerCase() == "i love you")) {
-     return api.sendMessage("সব মুতার জায়গায় গুঁতা দেওয়ার ধান্দা 😪🥱", threadID);
+     return api.sendMessage("I love you more muahhhhhh", threadID);
    };
 
      if ((event.body.toLowerCase() == "by") || (event.body.toLowerCase() == "Bye") || (event.body.toLowerCase() == "jaiga") || (event.body.toLowerCase() == "বাই") || (event.body.toLowerCase() == "pore kotha hbe") || (event.body.toLowerCase() == "যাই গা")) {
