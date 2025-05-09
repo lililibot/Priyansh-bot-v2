@@ -6,7 +6,7 @@ module.exports.config = {
 	description: "Obama Tweet post",
 	commandCategory: "edit-img",
 	usages: "[text]",
-	cooldowns: 10,
+	cooldowns: 1,
 	dependencies: {
 		"canvas":"",
 		 "axios":"",
