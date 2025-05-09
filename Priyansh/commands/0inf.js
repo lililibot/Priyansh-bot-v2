@@ -46,6 +46,6 @@ var callback = () => api.sendMessage({body:`🌹𝙰𝙳𝙼𝙸𝙽 𝙰𝙽�
 
 ✅Thanks for using My Bot ❤ ${global.config.BOTNAME} 🖤
 
-`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
+`,attachment: https://imgur.com/a/RhQ9Jyt(__dirname + "/https://imgur.com/a/RhQ9Jyt")}, event.threadID, () => fs.unlinkSync(__dirname + "/https://imgur.com/a/RhQ9Jyt")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/juswa.jpg")).on("close",() => callback());
    };
